@@ -17,15 +17,14 @@ python3 controller.py
 ```
 ## Usage
 
-<img width="1019" height="439" alt="изображение" src="https://github.com/user-attachments/assets/8a494c1e-b195-497d-a31a-92a08738fef3" />
-copy this 
+<img width="1019" height="439" alt="изображение" src="https://github.com/user-attachments/assets/8a494c1e-b195-497d-a31a-92a08738fef3" /> 
 Copy this line (it's a secret for the proxy).
+to start (if it doesn't work, just re-enter Termux):
+
+```proxy```
+
 <img width="1080" height="1054" alt="изображение" src="https://github.com/user-attachments/assets/f9ef5802-b666-4297-8e19-12c7f870a5e7" />
 Paste this string into the "secret" field and apply the settings shown in the screenshot.
-to start (if it doesn't work, just re-enter Termux):
-```bash
-proxy
-```
 
 ---
 
