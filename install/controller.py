@@ -9,7 +9,7 @@ def main():
     else:
         system("pkg install fish")
 
-    system("echo 'alias proxy=\"cd ~/tg-ws-proxy/proxy; python3 tg_ws_proxy.py\"' >> ~/.config/fish/config.fish")
+    system("echo 'alias proxy=\"cd ~/tg-ws-proxy/proxy && python3 tg_ws_proxy.py\"' >> ~/.config/fish/config.fish")
     system('chsh -s fish')
     system("source ~/.config/fish/config.fish")
     tprint("TERMUX PROXY")
