@@ -1,0 +1,59 @@
+[build-system]
+requires = ["hatchling>=1.25.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "tg-ws-proxy_termux"
+dynamic=["version"]
+
+description = "Telegram Desktop WebSocket Bridge Proxy (for termux)"
+readme = "./README.md"
+requires-python = ">=3.8"
+
+license = { name = "MIT", file = "LICENSE" }
+
+authors = [
+    { name = "Flowseal, Nuwert123" }
+]
+
+keywords = [
+    "telegram",
+    "termux",
+    "proxy",
+    "bypass",
+    "websocket",
+    "mtproto",
+]
+
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Environment :: Console",
+  "Intended Audience :: Customer Service",
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Topic :: System :: Networking :: Firewalls",
+]
+
+dependencies = [
+    "pyperclip==1.9.0",
+    "art==6.5",
+    "psutil==7.0.0",
+    "cryptography==46.0.5",
+]
+
+[project.scripts]
+tg-ws-proxy_termux = "proxy.tg_ws_proxy_termux:main"
+
+[project.urls]
+Source = "https://github.com/Flowseal/tg-ws-proxy"
+Issues = "https://github.com/Flowseal/tg-ws-proxy/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["proxy", "utils", "install"]
+
+[tool.hatch.version]
+path = "proxy/__init__.py"
+
+[tool.ruff.lint]
+ignore = ["F403", "F405"]
