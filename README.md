@@ -71,6 +71,10 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 
 ---
 
+## Disclaimer
+
+The author of this project does not encourage the violation of the laws of your country. This project was created for educational purposes. You are responsible for all your actions.
+
 ## Links
 
 - Original project: [tg-ws-proxy](https://github.com/Flowseal/tg-ws-proxy)
