@@ -44,7 +44,6 @@ tg-ws-proxy-termux/
 ├── packaging/        # Additional packages
 ├── proxy/            # Main proxy code
 ├── utils/            # Utilities
-├── LICENSE           # MIT License
 ├── pyproject.toml    # Project configuration
 └── README.md         # Documentation
 ```
