@@ -27,7 +27,7 @@ Copy this line (it's a secret for the proxy).
 
 
 Paste this string into the "secret" field and apply the settings shown in the screenshot.
-<img width="1080" height="1054" alt="изображение" src="https://github.com/user-attachments/assets/f9ef5802-b666-4297-8e19-12c7f870a5e7" />
+<img width="1080" height="1098" alt="изображение" src="https://github.com/user-attachments/assets/fa9b4e5d-6c6a-4cb1-b89b-dc878ef28c14" />
 
 
 ---
