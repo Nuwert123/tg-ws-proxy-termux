@@ -53,7 +53,7 @@ tg-ws-proxy-termux/
 
 ## License
 
-[MIT](https://github.com/Nuwert123/tg-ws-proxy-termux/blob/main/LICENSE)
+[MIT](https://github.com/Nuwert123/tg-ws-proxy-termux/LICENSE)
 
 ---
 
