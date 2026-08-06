@@ -51,8 +51,8 @@ tg-ws-proxy-termux/
 
 ---
 
-## License
-
+## License 
+MIT
 
 
 Copyright 2026 Nuwert123
